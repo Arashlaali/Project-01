@@ -1,11 +1,10 @@
 body {
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: #EDEDED;
-	font-size: 1rem;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.5;
-	/* this is for testing purposes */
-	/* max-width: 31.25rem;
-	margin: 0 auto; */
+	margin: 0 auto;
 }
 
 h1 {
@@ -18,9 +17,27 @@ h1 {
 
 h2 {
 	font-family: 'Times New Roman', Times, serif;
+	color: #AF4912;
 	font-size: 3rem;
 	text-align: center;
 }
+
+.site-nav {
+
+	background-color: #AF4912;
+	padding: 0.1rem;
+	margin: 0;
+}
+
+.menu-tabs li {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1..25rem;
+	margin-right: 1rem;
+
+}
+
 
 p {
 
@@ -49,14 +66,6 @@ a:active {
 	background-color: #ff0000;
 }
 
-.menu-tabs {
-
-	font-size: 1.25rem;
-	margin-right: 1rem;
-	text-decoration: none;
-
-
-}
 
 
 
@@ -69,7 +78,7 @@ a:active {
 
 img {
 
-	border-radius: 2rem;
+	border-radius: 3rem;
 }
 
 /* .underline {
@@ -80,15 +89,31 @@ img {
 
 } */
 
+.about-me {
+	display: inline-block;
+	background-color: bisque;
+	border-radius: 6rem;
+	padding: 0.2rem 2rem;
+	margin: 2rem;
+
+}
+
+section .underline {
+	border-bottom: 4px solid black;
+	width: 100%;
+	padding-bottom: 5px;
+
+}
+
 .about-me h2 {
 
-	margin-top: 4rem;
+	margin-top: 1rem;
 
 }
 
 .about-me p {
-
-	width: 70%;
+	margin-top: 0;
+	width: 90%;
 
 
 
@@ -146,4 +171,5 @@ img {
 		text-transform: uppercase;
 	} */
 
+}
 }
