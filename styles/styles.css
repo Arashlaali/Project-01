@@ -75,7 +75,7 @@ a:active {
 .h1-caption {
 
 	font-size: 2rem;
-
+	letter-spacing: 0.25em;
 }
 
 
@@ -161,6 +161,12 @@ section .underline {
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
+}
+
+.website-link {
+	letter-spacing: 0.75rem;
+
+
 }
 
 .contact-me {
