@@ -1,6 +1,5 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #EDEDED;
+	font-family: 'Times New Roman', Times, serif background-color: #EDEDED;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -36,6 +35,12 @@ h2 {
 
 }
 
+.menu-tabs li a {
+	text-decoration: none;
+	color: black;
+
+}
+
 
 p {
 
@@ -48,7 +53,7 @@ a:visited {
 	color: #003800;
 }
 
-a:hover,
+a:hover:not(img),
 a:focus {
 
 	background-color: #003800;
@@ -65,7 +70,7 @@ a:active {
 }
 
 
-
+/* MAIN css codes  */
 
 .h1-caption {
 
@@ -158,6 +163,44 @@ section .underline {
 	text-align: center;
 }
 
+.contact-me {
+	text-align: center;
+	background-color: bisque;
+	border-radius: 6rem;
+	padding: 0.2rem 2rem;
+	margin: 2rem;
+}
+
+.contact-me li {
+	display: inline-block;
+	color: black;
+
+}
+
+.contact-me li a {
+	color: black;
+	background-color: #AF4912;
+	border-radius: 2rem;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 2rem;
+	margin: 4rem;
+
+}
+
+/* end of MAIN css codes  */
+
+/* footer  */
+
+.site-footer {
+	text-align: center;
+
+
+}
+
+
+/* flex codes for MAIN */
+
 @media (min-width:50rem) {
 
 	.site-header {
@@ -180,8 +223,6 @@ section .underline {
 		gap: 2rem;
 
 	}
-
-
 
 	.about-me {
 
