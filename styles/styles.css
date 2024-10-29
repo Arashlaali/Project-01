@@ -147,12 +147,11 @@ section .underline {
 }
 
 .my-projects img {
-	display: block;
+	display: flex;
 	margin: auto;
 	border-radius: 10rem;
 	margin-bottom: 0.7rem;
 	margin-top: 2rem;
-
 }
 
 .my-projects {
@@ -161,21 +160,20 @@ section .underline {
 	border-radius: 6rem;
 	padding: 0.2rem 2rem;
 	margin: 2rem;
-	align-items: center;
 
 }
 
 
-
-/* .project-wrapper {
+.project-wrapper {
 
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
 
-} */
+}
 
-.project-wrapper img {
+*/ .project-wrapper img {
 	max-width: 50%;
 	height: auto;
 }
