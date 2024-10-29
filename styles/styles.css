@@ -81,7 +81,6 @@ a:active {
 
 
 img {
-
 	border-radius: 3rem;
 }
 
@@ -238,6 +237,23 @@ section .underline {
 
 @media (min-width:70rem) {
 
+	.site-header {
+
+		display: flex;
+		justify-content: center;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		gap: 4rem;
+		margin-top: 2rem;
+
+	}
+
+
+	.site-header img {
+		order: 1;
+
+	}
+
 
 	.about-me {
 
@@ -245,6 +261,15 @@ section .underline {
 		flex-direction: column;
 		align-items: center;
 	}
+
+
+	.a {
+		display: flex;
+
+
+	}
+
+	;
 
 	.my-portrait {
 
