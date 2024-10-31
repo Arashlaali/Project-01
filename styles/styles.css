@@ -79,18 +79,9 @@ a:active {
 	letter-spacing: 0.25em;
 }
 
-
-img {
-	border-radius: 3rem;
-}
-
-/* .underline {
-	border-bottom: 2px solid #000000;
-	width: fit-content;
-	padding-bottom: 5px;
+.site-header img {}
 
 
-} */
 
 @media (min-width:50rem) {
 
@@ -104,6 +95,7 @@ img {
 
 	.site-header img {
 		width: 30%;
+		border-radius: 3rem;
 
 	}
 
@@ -149,6 +141,11 @@ section .underline {
 .my-projects img {
 	display: flex;
 	margin: auto;
+	float: left;
+	width: 600px;
+	height: 600px;
+	object-fit: cover;
+	border-radius: 3rem;
 	border-radius: 10rem;
 	margin-bottom: 0.7rem;
 	margin-top: 2rem;
@@ -165,7 +162,7 @@ section .underline {
 
 
 .project-wrapper {
-
+	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
@@ -214,7 +211,7 @@ section .underline {
 	background-color: bisque;
 	border-radius: 6rem;
 	padding: 0.2rem 2rem;
-	margin: 2rem;
+	margin: 6rem;
 }
 
 .contact-me li {
@@ -226,14 +223,14 @@ section .underline {
 .contact-me li a {
 	color: black;
 	border-radius: 2rem;
-	padding: 1rem;
+	padding: 4rem;
 	text-decoration: none;
 	font-size: 2rem;
-	margin: 4rem;
+	margin: auto;
 
 }
 
-@media (min-width:70rem) {
+@media (min-width:65em) {
 
 	.site-header {
 
@@ -297,7 +294,22 @@ section .underline {
 
 	}
 
+	.contact-me {
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		width: 50%;
+		margin: auto;
+	}
+
+
+
+
+
 }
+
+
 
 
 
